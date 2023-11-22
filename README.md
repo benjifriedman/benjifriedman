@@ -1,6 +1,6 @@
 <div>
 <details>
-  <summary>:zap: Most Used Languages</summary>
+  <summary>:zap:Languages</summary>
 
  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=benjifriedman&show_icons=true&locale=en&layout=compact" alt="benjifriedman" />
 
