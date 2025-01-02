@@ -1,12 +1,6 @@
-```rust
-def main() {
-    let name = 'Benji Friedman';
-    let title = 'Web Developer';
-    let location = 'Berkeley, CA';
-    let status = 'Open to new projects and collaborations, contact me!';
-}
+# Hello 👋
 
-```
+Links:
 
 [![website](https://img.shields.io/badge/website-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://benjifriedman.com/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/benjifri)
