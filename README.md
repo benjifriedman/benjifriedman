@@ -1,4 +1,9 @@
 Hello 👋
+
+I am available for new projects and collaborations. 
+
+The best way to contact me is through [benjifriedman.com](https://benjifriedman.com)
+
 <!---
 
 Welcome to my Github
