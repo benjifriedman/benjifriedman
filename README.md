@@ -1,8 +1,12 @@
 Hello 👋
 
+<!---
+
 I'm available for new projects and collaborations
 
 The best way to contact me is through [benjifriedman.com](https://benjifriedman.com)
+
+-->
 
 <!---
 
