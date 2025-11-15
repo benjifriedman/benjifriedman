@@ -26,9 +26,12 @@ def main():
     current_time_PST = datetime.strptime(current_time_PST, "%H:%M").strftime("%I:%M %p")
     current_date = datetime.now(timezone("US/Pacific")).strftime("%Y-%m-%d")
 
+    current_day = datetime.now(timezone("US/Pacific")).strftime("%A, %B %d, %Y")
+
     template_variables = {
         "current_datetime_PST": f"{current_date} {current_time_PST}",
         "current_time_PST": datetime.now(timezone("US/Pacific")).strftime("%I:%M %p"),
+        "current_day": current_day,
         "sun_rise": sunrise_time,
         "sun_set": sunset_time,
         "temperature": city_temperature,
