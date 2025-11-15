@@ -32,7 +32,6 @@ def main():
         "sun_rise": sunrise_time,
         "sun_set": sunset_time,
         "temperature": city_temperature,
-        "weather_emoji": weather.weather_icon(city_temperature),
     }
 
     # Load template, pass in variables, write to README.md
