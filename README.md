@@ -1,16 +1,15 @@
-### Hi 👋
 
-<!--
-**benjifriedman/benjifriedman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://www.flickr.com/photos/benjifriedman/31767382727/"><img width="850" src="https://live.staticflickr.com/7830/31767382727_72ca7af739_k.jpg" alt=""></a>
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
+
+
+<p>Today is Sunday, November 30, 2025</p>
+
+
+<p>In Berkeley the sunrise will be at <b>7:05 AM</b> and sunset is at <b>4:50 PM</b></p>
+<p>The current temperature is <b>44.1°F</b> with 🌫️ mist as of 7:04 AM PST</p>
+
+<hr />
+<p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
