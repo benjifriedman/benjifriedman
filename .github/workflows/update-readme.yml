@@ -1,0 +1,27 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - run: python main.py
+        env:
+          openweather_api_key: ${{ secrets.openweather_api_key }}
+          flickr_api_key: ${{ secrets.flickr_api_key }}
+          flickr_api_secret: ${{ secrets.flickr_api_secret }}
+          flickr_user_id: ${{ secrets.flickr_user_id }}
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update README with weather and Flickr photo" && git push)

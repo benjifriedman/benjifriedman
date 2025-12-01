@@ -1,0 +1,17 @@
+{% if flickr_photo %}
+<a href="{{ flickr_photo.page_url }}"><img width="850" src="{{ flickr_photo.url }}" alt="{{ flickr_photo.title }}"></a>
+{% endif %}
+
+<p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
+
+{% if is_after_sunset %}
+<p>It is currently the night of {{ current_day }}</p>
+{% else %}
+<p>Today is {{ current_day }}</p>
+{% endif %}
+
+{% if is_after_sunset %}<p>In Berkeley, {{ sunset_text }} <b>{{ sun_set }}</b> and {{ sunrise_text }} <b>{{ sun_rise }}</b></p>{% else %}<p>In Berkeley {{ sunrise_text }} <b>{{ sun_rise }}</b> and {{ sunset_text }} <b>{{ sun_set }}</b></p>{% endif %}
+<p>The current temperature is <b>{{ temperature }}°F</b> with {{ weather_emoji }} {{ weather_description }} as of {{ current_time }} {{ timezone_name }}</p>
+
+<hr />
+<p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>

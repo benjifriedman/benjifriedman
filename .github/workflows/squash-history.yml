@@ -1,0 +1,43 @@
+name: Squash Old Commits
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # First day of each month at midnight UTC
+  workflow_dispatch:  # Allow manual trigger from Actions tab
+
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Get full history
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Squash last month's commits
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Count commits from last 30 days
+          COMMIT_COUNT=$(git rev-list --count --since="30 days ago" HEAD)
+          
+          echo "Found $COMMIT_COUNT commits from the last 30 days"
+          
+          if [ "$COMMIT_COUNT" -gt 1 ]; then
+            # Get the month name for the archive commit message
+            MONTH=$(date -d "last month" +"%B %Y")
+            
+            # Create a squashed commit
+            git reset --soft HEAD~$COMMIT_COUNT
+            git commit -m "Archive: $MONTH updates ($COMMIT_COUNT commits)"
+            
+            echo "Squashed $COMMIT_COUNT commits into archive commit"
+            
+            # Force push the rewritten history
+            git push --force
+            
+            echo "Successfully pushed squashed history"
+          else
+            echo "Not enough commits to squash (need more than 1)"
+          fi
