@@ -9,7 +9,7 @@
 
 
 <p>In Berkeley sunrise today was at <b>7:11 AM</b> and sunset will be at <b>4:49 PM</b></p>
-<p>The current temperature is <b>45.9°F</b> with ☁️ scattered clouds as of 9:04 AM PST</p>
+<p>The current temperature is <b>47.7°F</b> with ☁️ broken clouds as of 10:06 AM PST</p>
 
 <hr />
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
