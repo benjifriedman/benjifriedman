@@ -1,15 +1,15 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54923028834/"><img width="850" src="https://live.staticflickr.com/65535/54923028834_fb6644ac32_k.jpg" alt="Pacific Palisades"></a>
+<a href="https://www.flickr.com/photos/benjifriedman/44181117634/"><img width="850" src="https://live.staticflickr.com/1939/44181117634_2b7a633e1b_k.jpg" alt="Alchemy"></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>It is currently the night of Friday, December 12, 2025</p>
+<p>Today is Saturday, December 13, 2025</p>
 
 
-<p>In Berkeley, sunset was at <b>4:50 PM</b> and the sunrise will be at <b>7:15 AM</b></p>
-<p>The current temperature is <b>48.8°F</b> with ☀️ clear sky as of 11:05 PM PST</p>
+<p>In Berkeley the sunrise will be at <b>7:16 AM</b> and sunset is at <b>4:50 PM</b></p>
+<p>The current temperature is <b>46.3°F</b> with ☀️ clear sky as of 12:06 AM PST</p>
 
 <hr />
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
