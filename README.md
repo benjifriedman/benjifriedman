@@ -1,5 +1,5 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54939256667/"><img width="850" src="https://live.staticflickr.com/65535/54939256667_9078f2ef0d_k.jpg" alt=""></a>
+<a href="https://www.flickr.com/photos/benjifriedman/45329951591/"><img width="850" src="https://live.staticflickr.com/1901/45329951591_9016d9446b_k.jpg" alt=""></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
@@ -9,7 +9,7 @@
 
 
 <p>In Berkeley sunrise today was at <b>7:24 AM</b> and sunset will be at <b>5:08 PM</b></p>
-<p>The current temperature is <b>56.5°F</b> with ☁️ overcast clouds as of 1:04 PM PST</p>
+<p>The current temperature is <b>57.9°F</b> with ☁️ overcast clouds as of 2:04 PM PST</p>
 
 <hr />
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
