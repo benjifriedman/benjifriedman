@@ -1,15 +1,15 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54921914147/"><img width="850" src="https://live.staticflickr.com/65535/54921914147_d711435363_k.jpg" alt="Pacific Palisades"></a>
+<a href="https://www.flickr.com/photos/benjifriedman/41359033704/"><img width="850" src="https://live.staticflickr.com/960/41359033704_bd1b71d1e0_k.jpg" alt=""></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>Today is Monday, March 02, 2026</p>
+<p>It is currently the night of Monday, March 02, 2026</p>
 
 
-<p>In Berkeley sunrise today was at <b>6:39 AM</b> and sunset will be at <b>6:03 PM</b></p>
-<p>The current temperature is <b>60.3°F</b> with ☁️ few clouds as of 5:36 PM PST</p>
+<p>In Berkeley, sunset was at <b>6:03 PM</b> and the sunrise will be at <b>6:39 AM</b></p>
+<p>The current temperature is <b>56.4°F</b> with ☁️ few clouds as of 7:02 PM PST</p>
 
 <hr />
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
