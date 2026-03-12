@@ -1,16 +1,16 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54902317227/"><img width="850" src="https://live.staticflickr.com/65535/54902317227_a7708e69f6_k.jpg" alt="The Turkeys of Northwest Berkeley"></a>
+<a href="https://www.flickr.com/photos/benjifriedman/54956552416/"><img width="850" src="https://live.staticflickr.com/65535/54956552416_5d17151819_k.jpg" alt=""></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>It is currently the night of Wednesday, March 11, 2026</p>
+<p>Today is Thursday, March 12, 2026</p>
 
 
 
-<p>In Berkeley, sunset was at <b>7:12 PM</b> and the sunrise will be at <b>7:26 AM</b></p>
-<p>The current temperature is <b>55.9°F</b> with 🌤️ haze as of 11:19 PM PDT</p>
+<p>In Berkeley the sunrise will be at <b>7:24 AM</b> and sunset is at <b>7:13 PM</b></p>
+<p>The current temperature is <b>55.7°F</b> with 🌤️ haze as of 12:21 AM PDT</p>
 
 
 <hr />
