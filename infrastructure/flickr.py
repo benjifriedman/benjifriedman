@@ -32,6 +32,15 @@ def _get_flickr_credentials():
 
 def get_random_flickr_photo():
     """Retrieve a random photo from Flickr user's photostream"""
+    try:
+        return _fetch_flickr_photo()
+    except Exception as e:
+        print(f"Flickr API error, skipping photo: {e}")
+        return None
+
+
+def _fetch_flickr_photo():
+    """Internal function that performs the actual Flickr API calls."""
     api_key, api_secret, user_id = _get_flickr_credentials()
     
     flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')

@@ -1,5 +1,5 @@
 from configparser import ConfigParser
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 import os
 
@@ -49,13 +49,6 @@ def get_openweather_info():
     return weather_dict, city_temperature, sunrise_time_unix, sunset_time_unix, weather_description, weather_emoji_icon
 
 
-def weather_icon(temp):
-    if temp >= 85:
-        return '🥵🌞'
-    elif temp <= 50:
-        return '🏂 ❄️ ⛄'
-    else:
-        return '👌😄'
 
 
 def weather_emoji(description):

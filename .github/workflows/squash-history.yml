@@ -26,7 +26,7 @@ jobs:
           
           if [ "$COMMIT_COUNT" -gt 1 ]; then
             # Get the month name for the archive commit message
-            MONTH=$(date -d "last month" +"%B %Y")
+            MONTH=$(date -d "$(date +%Y-%m-01) -1 month" +"%B %Y" 2>/dev/null || date -v-1m +"%B %Y")
             
             # Create a squashed commit
             git reset --soft HEAD~$COMMIT_COUNT
