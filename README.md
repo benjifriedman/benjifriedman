@@ -1,16 +1,16 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/55203537985/"><img width="850" src="https://live.staticflickr.com/65535/55203537985_20100f4d3a_k.jpg" alt=""></a>
+<a href="https://www.flickr.com/photos/benjifriedman/54921914192/"><img width="850" src="https://live.staticflickr.com/65535/54921914192_fe0f023411_k.jpg" alt="Pacific Palisades"></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>It is currently the night of Monday, May 4, 2026</p>
+<p>Today is Tuesday, May 5, 2026</p>
 
 
 
-<p>In Berkeley, sunset was at <b>8:02 PM</b> and the sunrise will be at <b>6:09 AM</b></p>
-<p>The current temperature is <b>52.0°F</b> with 🌧️ light rain as of 11:49 PM PDT</p>
+<p>In Berkeley the sunrise will be at <b>6:08 AM</b> and sunset is at <b>8:02 PM</b></p>
+<p>The current temperature is <b>52.0°F</b> with 🌧️ moderate rain as of 12:40 AM PDT</p>
 
 
 <hr />
