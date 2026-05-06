@@ -1,5 +1,5 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54939239197/"><img width="850" src="https://live.staticflickr.com/65535/54939239197_2869e27b42_k.jpg" alt=""></a>
+<a href="https://www.flickr.com/photos/benjifriedman/54915814791/"><img width="850" src="https://live.staticflickr.com/65535/54915814791_0f114438fb_k.jpg" alt="Orange Fencing"></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
@@ -9,8 +9,8 @@
 
 
 
-<p>In Berkeley the sunrise will be at <b>6:07 AM</b> and sunset is at <b>8:03 PM</b></p>
-<p>The current temperature is <b>55.0°F</b> with ☁️ overcast clouds as of 5:40 AM PDT</p>
+<p>In Berkeley sunrise today was at <b>6:07 AM</b> and sunset will be at <b>8:03 PM</b></p>
+<p>The current temperature is <b>54.7°F</b> with ☁️ broken clouds as of 6:37 AM PDT</p>
 
 
 <hr />
