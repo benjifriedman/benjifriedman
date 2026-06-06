@@ -1,5 +1,5 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54905335624/"><img width="850" src="https://live.staticflickr.com/65535/54905335624_c6ee4b6372_k.jpg" alt="Tree"></a>
+<a href="https://www.flickr.com/photos/benjifriedman/51349944155/"><img width="850" src="https://live.staticflickr.com/65535/51349944155_71f4d538d8_k.jpg" alt="IMG_7036"></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
@@ -10,7 +10,7 @@
 
 
 <p>In Berkeley sunrise today was at <b>5:47 AM</b> and sunset will be at <b>8:28 PM</b></p>
-<p>The current temperature is <b>53.3°F</b> with ☁️ scattered clouds as of 6:33 AM PDT</p>
+<p>The current temperature is <b>55.2°F</b> with ☁️ scattered clouds as of 7:33 AM PDT</p>
 
 
 <hr />
