@@ -1,16 +1,16 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54905091008/"><img width="850" src="https://live.staticflickr.com/65535/54905091008_119961dad5_k.jpg" alt="Pumpkins"></a>
+<a href="https://www.flickr.com/photos/benjifriedman/55203140621/"><img width="850" src="https://live.staticflickr.com/65535/55203140621_b27ae1d774_k.jpg" alt=""></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>Today is Thursday, July 9, 2026</p>
+<p>It is currently the night of Thursday, July 9, 2026</p>
 
 
 
-<p>In Berkeley sunrise today was at <b>5:54 AM</b> and sunset will be at <b>8:33 PM</b></p>
-<p>The current temperature is <b>60.2°F</b> with ☀️ clear sky as of 8:06 PM PDT</p>
+<p>In Berkeley, sunset was at <b>8:33 PM</b> and the sunrise will be at <b>5:54 AM</b></p>
+<p>The current temperature is <b>56.6°F</b> with ☁️ few clouds as of 10:20 PM PDT</p>
 
 
 <hr />
