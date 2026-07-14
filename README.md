@@ -1,5 +1,5 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/55203192451/"><img width="850" src="https://live.staticflickr.com/65535/55203192451_51a48c982a_k.jpg" alt=""></a>
+<a href="https://www.flickr.com/photos/benjifriedman/43975699470/"><img width="850" src="https://live.staticflickr.com/4885/43975699470_ef5c90bbe4_k.jpg" alt="San Mateo Baseball Field"></a>
 
 
 <p>Hi, I'm an artist and web developer based in Berkeley, CA</p>
@@ -10,7 +10,7 @@
 
 
 <p>In Berkeley sunrise today was at <b>5:57 AM</b> and sunset will be at <b>8:31 PM</b></p>
-<p>The current temperature is <b>73.1°F</b> with ☁️ scattered clouds as of 6:34 PM PDT</p>
+<p>The current temperature is <b>70.4°F</b> with ☁️ scattered clouds as of 8:03 PM PDT</p>
 
 
 <hr />
