@@ -10,7 +10,7 @@
 
 
 <p>In Berkeley sunrise today was at <b>6:48 AM</b> and sunset will be at <b>7:22 PM</b></p>
-<p>The current temperature is <b>70.9°F</b> with ☀️ clear sky as of 2:08 PM PDT</p>
+<p>The current temperature is <b>71.4°F</b> with ☀️ clear sky as of 3:07 PM PDT</p>
 
 
 <hr />
