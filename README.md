@@ -1,16 +1,16 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/53249092659/"><img width="850" src="https://live.staticflickr.com/65535/53249092659_96c7c66528_k.jpg" alt="UC Berkeley"></a>
+<a href="https://www.flickr.com/photos/benjifriedman/55202247147/"><img width="850" src="https://live.staticflickr.com/65535/55202247147_1a6035fb4f_k.jpg" alt=""></a>
 
 
 <p>I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>Today is Monday, September 21, 2026</p>
+<p>It is currently the night of Monday, September 21, 2026</p>
 
 
 
-<p>In Berkeley sunrise today was at <b>6:56 AM</b> and sunset will be at <b>7:08 PM</b></p>
-<p>The current temperature is <b>60.4°F</b> with ☁️ overcast clouds as of 6:19 PM PDT</p>
+<p>In Berkeley, sunset was at <b>7:08 PM</b> and the sunrise will be at <b>6:56 AM</b></p>
+<p>The current temperature is <b>59.1°F</b> with ☁️ broken clouds as of 7:14 PM PDT</p>
 
 
 <hr />
