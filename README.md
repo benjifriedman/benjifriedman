@@ -1,16 +1,16 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54972852848/"><img width="850" src="https://live.staticflickr.com/65535/54972852848_e2ca61b2ce_k.jpg" alt=""></a>
+<a href="https://www.flickr.com/photos/benjifriedman/54940387709/"><img width="850" src="https://live.staticflickr.com/65535/54940387709_b04a1ef622_k.jpg" alt=""></a>
 
 
 <p>I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>Today is Tuesday, October 20, 2026</p>
+<p>It is currently the night of Tuesday, October 20, 2026</p>
 
 
 
-<p>In Berkeley sunrise today was at <b>7:22 AM</b> and sunset will be at <b>6:25 PM</b></p>
-<p>The current temperature is <b>66.2°F</b> with ☁️ overcast clouds as of 6:21 PM PDT</p>
+<p>In Berkeley, sunset was at <b>6:25 PM</b> and the sunrise will be at <b>7:22 AM</b></p>
+<p>The current temperature is <b>64.5°F</b> with ☁️ overcast clouds as of 7:14 PM PDT</p>
 
 
 <hr />
