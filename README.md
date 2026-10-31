@@ -1,16 +1,16 @@
 
-<a href="https://www.flickr.com/photos/benjifriedman/54972852763/"><img width="850" src="https://live.staticflickr.com/65535/54972852763_8ed409845a_k.jpg" alt=""></a>
+<a href="https://www.flickr.com/photos/benjifriedman/54909418284/"><img width="850" src="https://live.staticflickr.com/65535/54909418284_476bbefa42_k.jpg" alt="Gas Station Car"></a>
 
 
 <p>I'm an artist and web developer based in Berkeley, CA</p>
 
 
-<p>It is currently the night of Friday, October 30, 2026</p>
+<p>Today is Saturday, October 31, 2026</p>
 
 
 
-<p>In Berkeley, sunset was at <b>6:12 PM</b> and the sunrise will be at <b>7:32 AM</b></p>
-<p>The current temperature is <b>54.2°F</b> with ☁️ scattered clouds as of 11:09 PM PDT</p>
+<p>In Berkeley the sunrise will be at <b>7:33 AM</b> and sunset is at <b>6:11 PM</b></p>
+<p>The current temperature is <b>53.7°F</b> with ☁️ scattered clouds as of 12:05 AM PDT</p>
 
 
 <hr />
