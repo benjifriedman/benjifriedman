@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # Runs every hour
   workflow_dispatch:  # Allows manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -25,4 +28,14 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update README with weather and Flickr photo" && git push)
+          if git diff --quiet && git diff --staged --quiet; then
+            exit 0
+          fi
+          git commit -m "Update README with weather and Flickr photo"
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "Push failed (attempt $attempt), retrying..."
+            sleep $((attempt * 10))
+            git pull --rebase -X theirs origin "$(git rev-parse --abbrev-ref HEAD)" || git rebase --abort
+          done
+          exit 1
