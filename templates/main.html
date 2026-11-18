@@ -1,19 +1,29 @@
-{% if gallery_image %}
-<a href="{{ gallery_image.page_url }}"><img width="850" src="{{ gallery_image.url }}" alt="{{ gallery_image.title }}"></a>
-{% endif %}
-
+{%- set details -%}
 <p>I'm an artist and web developer based in Berkeley, CA</p>
-
-{% if is_after_sunset %}
+{% if is_after_sunset -%}
 <p>It is currently the night of {{ current_day }}</p>
-{% else %}
+{% else -%}
 <p>Today is {{ current_day }}</p>
-{% endif %}
-
-{% if weather_available %}
+{% endif -%}
+{% if weather_available -%}
 {% if is_after_sunset %}<p>In Berkeley, {{ sunset_text }} <b>{{ sun_set }}</b> and {{ sunrise_text }} <b>{{ sun_rise }}</b></p>{% else %}<p>In Berkeley {{ sunrise_text }} <b>{{ sun_rise }}</b> and {{ sunset_text }} <b>{{ sun_set }}</b></p>{% endif %}
 <p>The current temperature is <b>{{ temperature }}°F</b> with {{ weather_emoji }} {{ weather_description }} as of {{ current_time }} {{ timezone_name }}</p>
-{% endif %}
+{% endif -%}
+{%- endset -%}
+{% if gallery_image -%}
+<table width="100%">
+<tr>
+<td width="50%">
+<a href="{{ gallery_image.page_url }}"><img width="100%" src="{{ gallery_image.url }}" alt="{{ gallery_image.title }}"></a>
+</td>
+<td width="50%" valign="middle">
+{{ details | trim }}
+</td>
+</tr>
+</table>
+{%- else -%}
+{{ details | trim }}
+{%- endif %}
 
 <hr />
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
