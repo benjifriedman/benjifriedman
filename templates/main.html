@@ -16,7 +16,10 @@
 <td width="50%">
 <a href="{{ gallery_image.page_url }}"><img width="100%" src="{{ gallery_image.url }}" alt="{{ gallery_image.title }}"></a>
 </td>
-<td width="50%" valign="middle">
+<td width="50%" valign="top">
+{#- GitHub strips style attributes, so padding-top isn't possible. An empty paragraph
+   (24px line + 16px bottom margin in GitHub's default styles) adds ~40px of space. -#}
+<p>&nbsp;</p>
 {{ details | trim }}
 </td>
 </tr>
