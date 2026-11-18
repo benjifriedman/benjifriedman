@@ -3,7 +3,7 @@
 This repository automatically updates the README.md with:
 - Current weather information for Berkeley, CA
 - Sunrise and sunset times
-- A random image from the Digital Abstract page on benjifriedman.com
+- A random image from the Digital Abstract or Low CFG Series pages on benjifriedman.com
 
 ## Local Development
 
@@ -43,6 +43,6 @@ You can manually trigger the workflow from the Actions tab → Update README →
 
 - `main.py` - Main script that fetches data and generates README
 - `infrastructure/weather.py` - Fetches weather data from OpenWeather API
-- `infrastructure/website_image.py` - Picks a random image from the Digital Abstract page on benjifriedman.com
+- `infrastructure/website_image.py` - Picks a random image from the Digital Abstract or Low CFG Series pages on benjifriedman.com
 - `templates/main.html` - Jinja2 template for the README
 - `.github/workflows/update-readme.yml` - GitHub Actions workflow

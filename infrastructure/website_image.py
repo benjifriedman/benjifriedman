@@ -5,24 +5,37 @@ from urllib.parse import unquote, urljoin
 import requests
 
 SITE_URL = "https://benjifriedman.com"
-GALLERY_PATH = "/digital-abstract"
+
+# Gallery pages on the site that images can be drawn from.
+GALLERIES = [
+    {"path": "/digital-abstract", "title": "Digital Abstract"},
+    {"path": "/low-cfg-series", "title": "Low CFG Series"},
+]
 
 
 def get_random_website_image():
-    """Pick a random image from the gallery page on benjifriedman.com.
+    """Pick a random image from one of the gallery pages on benjifriedman.com.
 
-    Returns a dict with url, page_url and title, or None if the page
-    can't be fetched or contains no images.
+    A gallery is chosen at random first, then an image from it. If that
+    gallery can't be fetched, the other galleries are tried.
+
+    Returns a dict with url, page_url and title, or None if no gallery
+    could be read.
     """
-    try:
-        return _fetch_website_image()
-    except Exception as e:
-        print(f"Website image error, skipping image: {e}")
-        return None
+    galleries = random.sample(GALLERIES, len(GALLERIES))
+    for gallery in galleries:
+        try:
+            image = _fetch_gallery_image(gallery)
+        except Exception as e:
+            print(f"Website image error for {gallery['path']}: {e}")
+            continue
+        if image:
+            return image
+    return None
 
 
-def _fetch_website_image():
-    page_url = SITE_URL + GALLERY_PATH
+def _fetch_gallery_image(gallery):
+    page_url = SITE_URL + gallery["path"]
     response = requests.get(page_url, timeout=20)
     response.raise_for_status()
 
@@ -33,9 +46,8 @@ def _fetch_website_image():
     if not paths:
         return None
 
-    path = random.choice(paths)
     return {
-        "url": urljoin(SITE_URL, path),
+        "url": urljoin(SITE_URL, random.choice(paths)),
         "page_url": page_url,
-        "title": "Digital Abstract",
+        "title": gallery["title"],
     }
