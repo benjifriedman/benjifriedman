@@ -3,7 +3,7 @@ from datetime import datetime
 from pytz import timezone
 from jinja2 import Environment, FileSystemLoader
 
-from infrastructure import weather, flickr
+from infrastructure import weather, website_image
 
 def main():
     """Compile variables and pass into README"""
@@ -21,8 +21,8 @@ def main():
         print(f"Weather API error, using fallback: {e}")
         weather_available = False
     
-    # Get random Flickr photo
-    flickr_photo = flickr.get_random_flickr_photo()
+    # Get random image from the Digital Abstract page on benjifriedman.com
+    gallery_image = website_image.get_random_website_image()
 
     pacific_tz = timezone("US/Pacific")
     current_timestamp_aware = datetime.now(pacific_tz)
@@ -79,7 +79,7 @@ def main():
         "temperature": city_temperature,
         "weather_description": weather_description,
         "weather_emoji": weather_emoji_icon,
-        "flickr_photo": flickr_photo,
+        "gallery_image": gallery_image,
     }
 
     # Load template, pass in variables, write to README.md
