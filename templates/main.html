@@ -13,19 +13,13 @@
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
 {%- endset -%}
 {% if gallery_image -%}
-<table width="100%">
-<tr>
-<td width="50%">
-<a href="{{ gallery_image.page_url }}"><img width="100%" src="{{ gallery_image.url }}" alt="{{ gallery_image.title }}"></a>
-</td>
-<td width="50%" valign="top">
+<div>
+<a href="{{ gallery_image.page_url }}"><img align="left" hspace="14" width="50%" src="{{ gallery_image.url }}" alt="{{ gallery_image.title }}"></a>
 {#- GitHub strips style attributes, so padding-top isn't possible. Two line breaks
    (~24px each in GitHub's default styles) add ~48px of space. -#}
 <br><br>
 {{ details | trim }}
-</td>
-</tr>
-</table>
+</div>
 {%- else -%}
 {{ details | trim }}
 {%- endif %}
