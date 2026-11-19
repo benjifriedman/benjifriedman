@@ -1,9 +1,9 @@
 <div>
-<a href="https://benjifriedman.com/low-cfg-series"><img align="left" hspace="14" width="50%" src="https://benjifriedman.com/low-cfg-series/low-cfg-069.jpg" alt="Low CFG Series"></a><br><br>
+<a href="https://benjifriedman.com/low-cfg-series"><img align="left" hspace="14" width="50%" src="https://benjifriedman.com/low-cfg-series/low-cfg-061.jpg" alt="Low CFG Series"></a><br><br>
 <p>I'm an artist and web developer based in Berkeley, CA</p>
 <p>It is currently the night of Wednesday, November 18, 2026</p>
 <p>In Berkeley, sunset was at <b>4:55 PM</b> and the sunrise will be at <b>6:52 AM</b></p>
-<p>The current temperature is <b>51.0°F</b> with 🌧️ light rain as of 9:06 PM PST</p>
+<p>The current temperature is <b>51.5°F</b> with 🌫️ mist as of 10:11 PM PST</p>
 <hr />
 <p>The best way to contact me is through <a href="https://benjifriedman.com">https://benjifriedman.com</a></p>
 </div>
