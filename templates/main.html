@@ -15,9 +15,6 @@
 {% if gallery_image -%}
 <div>
 <a href="{{ gallery_image.page_url }}"><img align="left" hspace="14" width="50%" src="{{ gallery_image.url }}" alt="{{ gallery_image.title }}"></a>
-{#- GitHub strips style attributes, so padding-top isn't possible. Two line breaks
-   (~24px each in GitHub's default styles) add ~48px of space. -#}
-<br><br>
 {{ details | trim }}
 </div>
 {%- else -%}
